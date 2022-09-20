@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 12vh;
+    display: flex;
+    justify-content:space-between ;
+   align-items:center ;
+   background:linear-gradient(5deg, black, green);
+   padding: 0 50px;
+}
+
+.logo{
+     font-size: 25px;
+     display: flex;
+     align-items:center;
+}
+
+h3{color: white;}
+
+img{width: 50px;}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing-page img{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+    /* overflow: hidden; */
+
+}
+
